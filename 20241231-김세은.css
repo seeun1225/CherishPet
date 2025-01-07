@@ -1,0 +1,553 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#container {
+    /* width: 100%; */
+}
+
+header {
+    width: 100%;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: rgb(252, 238, 217);
+    margin: auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.intro-img {
+    width: 500px;
+    margin: auto;
+    margin-top: -60px;
+}
+
+.intro-img img {
+    width: 500px;
+}
+
+.intro-img:hover {
+    cursor: pointer;
+}
+
+a:hover {
+    /* color: rgb(77, 77, 77); */
+}
+
+.intro-li-1 {
+    display: flex;
+    width: 1520px;
+    /* justify-content: right; */
+    list-style-type: none;
+    column-gap: 30px;
+    padding-left: 20px;
+}
+
+.intro-icons {
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(255, 212, 176, 0.5);
+    display: flex;
+
+    input {
+        width: 250px;
+        height: 40px;
+        background-color: rgb(255, 255, 255, 0);
+        border: none;
+        padding-left: 20px;
+        color: rgb(56, 56, 56);
+        outline: none;
+    }
+
+    button {
+        width: 40px;
+        height: 40px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        color: rgb(150, 150, 150);
+        transition: all 0.3s;
+    }
+
+    button:hover {
+        background-color: rgba(253, 193, 144, 0.5);
+        border-radius: 20px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.intro-li-1 a {
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    /* background-color: green; */
+    font-size: 16px;
+    font-family: "Gowun Dodum";
+    font-weight: bold;
+}
+
+.intro-li-1 a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.intro-li-2 {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    width: 100%;
+    column-gap: 70px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    /* background-color: red; */
+}
+
+.intro-menu {
+    /* background-color: orange; */
+    z-index: 100;
+}
+
+.intro-menu:hover .sub {
+    display: block;
+}
+
+.sub:hover .sub-menu {
+    cursor: pointer;
+}
+
+.sub {
+    /* background-color: yellow; */
+    display: none;
+}
+
+.sub .sub-menu:hover {
+    color: rgb(196, 196, 196);
+}
+
+
+.intro-li-2 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Gowun Dodum";
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.intro-li-2 a:hover {
+    color: rgb(202, 202, 202);
+}
+
+.sub-menu .sub-1-a {
+    text-align: center;
+    list-style-type: none;
+    font-size: 16px;
+    font-family: "Gowun Dodum";
+    line-height: 2;
+    margin-top: 10px;
+}
+
+.intro-menu .sub {
+    text-align: center;
+    list-style-type: none;
+    font-size: 16px;
+    font-family: "Gowun Dodum";
+    line-height: 2;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.sub-menu {
+    color: white;
+}
+
+.main-1 {
+    background-image: url("./강아지배경사이즈조절.png");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    width: 100%;
+    height: 800px;
+    position: relative;
+    /* transform: translate(15%, 20%); */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: -100px;
+    bottom: -100px;
+}
+
+.main-text {
+    text-align: start;
+    top: 3%;
+    left: 15%;
+    font-family: "Gowun Dodum";
+    position: absolute;
+    width: 800px;
+    color: white;
+    font-size: 28px;
+    line-height: 1.5;
+    margin-top: 150px;
+
+    h2 {
+        margin-bottom: 20px;
+    }
+}
+
+.best-menu {
+    text-align: center;
+    margin-top: 150px;
+    font-family: "Gowun Dodum";
+
+    h3 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 50px;
+        /* background-color: rgb(255, 244, 249); */
+        color: rgb(223, 117, 75);
+        height: 100px;
+        line-height: 100px;
+    }
+
+    .best-menu-img1 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        width: 100%;
+        height: 600px;
+    }
+
+    .best-menu-img2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        width: 100%;
+        height: 600px;
+        flex-wrap: wrap;
+    }
+
+    li {
+        background-color: rgb(252, 238, 217);
+        display: block;
+        margin: auto 30px;
+
+        /* transform: translateX(5%); */
+        border-radius: 10px;
+        line-height: 2;
+
+        img {
+            border-radius: 10px 10px 0 0;
+        }
+
+        img:hover {
+            cursor: pointer;
+        }
+    }
+
+    h4 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    p {
+        font-size: 16px;
+        word-spacing: 1px;
+    }
+
+    button {
+        background-color: white;
+        border-radius: 30px;
+        border: none;
+        padding: 10px 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-family: "Gowun Dodum";
+        font-weight: 600;
+    }
+
+    button:hover {
+        cursor: pointer;
+        transform: scale(1.02);
+        color: rgb(48, 48, 48);
+    }
+}
+
+.side-bar {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    position: fixed;
+    left: 95%;
+    top: 84%;
+    transform: translateY(-50%);
+
+}
+
+.side-icon1 {
+    background-color: rgb(255, 237, 241);
+    border-radius: 40%;
+    margin-bottom: 10px;
+}
+
+.side-icon2 {
+    background-color: rgb(255, 237, 241);
+    border-radius: 40%;
+    margin-bottom: 10px;
+}
+
+.side-icon3 {
+    background-color: rgb(255, 237, 241);
+    border-radius: 40%;
+}
+
+.side-bar:hover {
+    cursor: pointer;
+}
+
+.main-2 {
+    display: flex;
+    flex-wrap: 1;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 150px; */
+    font-family: "Gowun Dodum";
+    background-color: rgb(255, 242, 218);
+    height: 750px;
+}
+
+.main-2-img img {
+    width: 70%;
+    border-radius: 50%;
+    margin-right: 50px;
+    box-shadow: 0 0 10px rgba(255, 196, 196, 0.1);
+}
+
+.main-2-text {
+    margin-left: 30px;
+
+    h3 {
+        font-size: 28px;
+        margin-bottom: 40px;
+        transition: transform 0.5s;
+    }
+
+    h3:hover {
+        transform: translateY(-5px);
+    }
+
+    .main-2-text-1 {
+        margin-bottom: 30px;
+    }
+}
+
+.main-3 {
+    text-align: center;
+    font-family: "Gowun Dodum";
+    /* background-color: rgb(202, 216, 208);
+    height: 400px; */
+
+
+    h4 {
+        font-size: 22px
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    s {
+        font-size: 14px;
+    }
+}
+
+#container4 {
+    background-color: rgb(252, 230, 189);
+    height: 850px;
+}
+
+.main-3-text {
+    margin-top: 150px;
+    margin-bottom: 60px;
+    font-size: 32px;
+    background-color: rgb(255, 244, 213);
+    color: rgb(75, 75, 75);
+    height: 100px;
+    line-height: 100px;
+}
+
+.main-sale {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-evenly;
+    line-height: 1.5;
+}
+
+.main-sale img {
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.main-sale img:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.main-sale-1 h4 {
+    background-color: rgb(255, 247, 213);
+    border-radius: 10px;
+    width: 160px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.main-sale-2 h4 {
+    background-color: rgb(255, 247, 213);
+    border-radius: 10px;
+    width: 170px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.main-sale-3 h4 {
+    background-color: rgb(255, 247, 213);
+    border-radius: 10px;
+    width: 130px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.main-sale-4 h4 {
+    background-color: rgb(255, 247, 213);
+    border-radius: 10px;
+    width: 170px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.main-3-btn {
+    background-color: rgb(255, 215, 140);
+    color: rgb(61, 61, 61);
+    border: 2px double rgb(255, 230, 182);
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    margin-top:50px;
+    font-family: "Gowun Dodum";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.main-3-btn:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    color: rgb(80, 80, 80);
+}
+
+footer {
+    /* background-color: rgb(252, 238, 217); */
+    font-family: "Gowun Dodum";
+    margin-left: 20px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+
+    img {
+        width: 20%;
+        height: 10%;
+        margin-left: -30px;
+        margin-top: 20px;
+    }
+
+    .footer-text-1 li {
+        display: inline-block;
+        font-weight: bold;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .footer-text-1 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .footer-text-2 {
+        margin-right: 40px;
+        margin-top: -160px;
+        line-height: 1.5;
+        float: right;
+        
+        h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .footer-text-3 {
+        margin-left: 10px;
+        margin-bottom: 20px;
+        font-weight: 500;
+        line-height: 1.5;
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #container .intro {
+        width: 100%;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .intro-icons {
+        width: 200px;
+        height: 40px;
+
+        input {
+            width: 200px;
+            height: 40px;
+        }
+
+        button {
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    .best-menu-img1 img {
+        width: 50%;
+    }
+
+    .best-menu-img2 img {
+        width: 50%;
+    }
+
+
+}
